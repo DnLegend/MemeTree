@@ -1,11 +1,11 @@
 let modInfo = {
-	name: "MtreeG",
+	name: "MemeTree",
 	id: "emod271828",
 	author: "DnL",
-	pointsName: "points",
+	pointsName: "memes",
 	discordName: "",
 	discordLink: "",
-	initialStartPoints: new Decimal (0), // Used for hard resets and new players
+	initialStartPoints: new Decimal (5), // Used for hard resets and new players
 
 	offlineLimit: 1,  // In hours
 }
@@ -28,7 +28,7 @@ let winText = `Congratulations! You have reached the end and beaten this game, b
 var doNotCallTheseFunctionsEveryTick = ["blowUpEverything"]
 
 function getStartPoints(){
-  return new Decimal(0)
+  return new Decimal(5)
 }
 
 // Determines if it should show points/sec
@@ -40,9 +40,12 @@ function canGenPoints(){
 function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
-	//if(hasUpgrade("white", 11)) player.points = player.points.add(1)
-	let ret = player.white.baseAmount + player.green.baseAmount + player.blue.baseAmount + player.red.baseAmount + player.black.baseAmount
-	return ret
+
+		let gain = new Decimal(0)
+		if(hasUpgrade("doge", 11)) gain = gain.add(1)
+		if(hasUpgrade("doge", 12)) gain = gain.add(2)
+		if(hasUpgrade("doge", 13)) gain = gain.add(7)
+		return gain
 }
 
 
