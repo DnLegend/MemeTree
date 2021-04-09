@@ -13,7 +13,7 @@
 }
 
 body {
-	background-image: url(gigachad.jfif);
+	background-image: url(../data/gigachad.jpeg);
 	background-size: cover;
 	color: var(--color);
 	overflow: hidden;
