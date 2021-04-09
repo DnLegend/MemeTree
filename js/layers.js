@@ -1,6 +1,6 @@
 addLayer("doge", {
     name: "Dogecoins", // This is optional, only used in a few places, If absent it just uses the layer id.
-    symbol: "<img src='/doge.jpg'></img> style = 'width:100%; height:100%''", // This appears on the layer's node. Default is the id with the first letter capitalized
+    symbol: "<img src='/data/doge.jpg' style = 'width:100%; height:100%'></img>'", // This appears on the layer's node. Default is the id with the first letter capitalized
     position: 0, // Horizontal position within a row. By default it uses the layer id and sorts in alphabetical order
     row: 0,
     startData() { return {
