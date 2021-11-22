@@ -41,10 +41,10 @@ addLayer("doge", {
       unlocked() {return (hasUpgrade("doge", 12))},
     },
     14: {
-        title: "Concern",
-        description: "Generate 10 memes per second",
-        cost: new Decimal(40),
-        unlocked() {return (hasUpgrade("doge", 13))},
+      title: "Concern",
+      description: "Generate 10 memes per second",
+      cost: new Decimal(40),
+      unlocked() {return (hasUpgrade("doge", 13))},
     },
   },
   layerShown(){return true}
