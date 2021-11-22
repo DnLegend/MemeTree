@@ -13,7 +13,7 @@ addLayer("doge", {
       return req
     }, // Can be a function that takes requirement increases into account
     resource: "Dogecoins", // Name of prestige currency
-    baseResource: "upvotes", // Name of resource prestige is based on
+    baseResource: "memes", // Name of resource prestige is based on
     baseAmount(){
       return player.points
     }, // Get the current amount of baseResource
