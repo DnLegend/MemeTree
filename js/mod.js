@@ -45,6 +45,7 @@ function getPointGen() {
 		if(hasUpgrade("doge", 11)) gain = gain.add(1)
 		if(hasUpgrade("doge", 12)) gain = gain.add(2)
 		if(hasUpgrade("doge", 13)) gain = gain.add(7)
+	        if(hasUpgrade("doge", 14)) gain = gain.add(10)
 		return gain
 }
 
