@@ -61,7 +61,7 @@ addLayer("amogus", {
     resource: "Suscoins", // Name of prestige currency
     baseResource: "Kills", // Name of resource prestige is based on
     baseAmount(){
-      return player.doge.memes
+      return player.doge.upvotes
     }, // Get the current amount of baseResource
     type: "normal", // normal: cost to gain currency depends on amount gained. static: cost depends on how much you already have
     exponent: 0.75,
