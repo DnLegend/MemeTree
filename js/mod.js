@@ -1,5 +1,5 @@
 let modInfo = {
-	name: "MemeTree",
+	name: "MemeTreeReborn",
 	id: "emod271828",
 	author: "DnL",
 	pointsName: "memes",
