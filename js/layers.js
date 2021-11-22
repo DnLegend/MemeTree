@@ -58,8 +58,8 @@ addLayer("amogus", {
       let req = new Decimal(5)
       return req
     }, // Can be a function that takes requirement increases into account
-    resource: "sus", // Name of prestige currency
-    baseResource: "Wow", // Name of resource prestige is based on
+    resource: "Suscoins", // Name of prestige currency
+    baseResource: "Kills", // Name of resource prestige is based on
     baseAmount(){
       return player.points
     }, // Get the current amount of baseResource
