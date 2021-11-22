@@ -2,7 +2,7 @@ let modInfo = {
 	name: "MemeTreeReborn",
 	id: "emod271828",
 	author: "DnL, Reborn by Exterminate",
-	pointsName: "memes",
+	pointsName: "upvotes",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new Decimal (5), // Used for hard resets and new players
