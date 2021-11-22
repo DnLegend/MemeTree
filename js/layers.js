@@ -55,7 +55,7 @@ addLayer("amogus", {
     }},
     color: "#4BDC13",
     requires(){
-      let req = new Decimal(5)
+      let req = new Decimal(100)
       return req
     }, // Can be a function that takes requirement increases into account
     resource: "Suscoins", // Name of prestige currency
