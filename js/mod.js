@@ -1,13 +1,13 @@
 let modInfo = {
-	name: "MemeTree",
+	name: "MemeTreeReborn",
 	id: "emod271828",
-	author: "DnL",
+	author: "DnL, Reborn by Exterminate",
 	pointsName: "memes",
 	discordName: "",
 	discordLink: "",
 	initialStartPoints: new Decimal (5), // Used for hard resets and new players
 
-	offlineLimit: 1,  // In hours
+	offlineLimit: 15,  // In hours
 }
 
 // Set your version in num and name
