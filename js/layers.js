@@ -21,7 +21,7 @@ addLayer("doge", {
     exponent: 0.75,
     upgrades: {
     rows: 2,
-    cols: 5,
+    cols: 3,
     11: {
       title: "Wow",
       description: "Generate 1 meme per second",
