@@ -40,7 +40,7 @@ addLayer("doge", {
       cost: new Decimal(20),
       unlocked() {return (hasUpgrade("doge", 12))},
     },
-    14: {
+    21: {
       title: "Concern",
       description: "Generate 10 memes per second",
       cost: new Decimal(40),
