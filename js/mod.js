@@ -1,7 +1,7 @@
 let modInfo = {
 	name: "MemeTreeReborn",
 	id: "emod271828",
-	author: "DnL",
+	author: "DnL, Reborn by Exterminate",
 	pointsName: "memes",
 	discordName: "",
 	discordLink: "",
