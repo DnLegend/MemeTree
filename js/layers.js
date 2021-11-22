@@ -68,23 +68,17 @@ addLayer("amogus", {
     upgrades: {
     rows: 2,
     cols: 5,
-    11: {
-      title: "Wow",
-      description: "Generate 1 meme per second",
+    14: {
+      title: "Crewmate",
+      description: "Generate 10 memes per second",
       cost: new Decimal(1),
-      unlocked() {return player.doge.unlocked},
+      unlocked() {return player.amogus.unlocked},
     },
-    12: {
-      title: "Very Wow",
-      description: "Generate 2 memes per second",
+    15: {
+      title: "Imposter",
+      description: "Generate 15 memes per second",
       cost: new Decimal(5),
-      unlocked() {return (hasUpgrade("doge", 11))},
-    },
-    13: {
-      title: "Much Wow",
-      description: "Generate 7 memes per second",
-      cost: new Decimal(20),
-      unlocked() {return (hasUpgrade("doge", 12))},
+      unlocked() {return (hasUpgrade("amogus", 14))},
     },
   },
   layerShown(){return true}
